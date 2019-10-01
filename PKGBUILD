@@ -5,7 +5,7 @@
 
 _target=x86_64-elf
 pkgname=$_target-gcc-large
-pkgver=8.2.0
+pkgver=9.1.0
 pkgrel=1
 pkgdesc='The GNU Compiler Collection - cross compiler for x86_64-elf target (large code model libgcc)'
 arch=(x86_64)
@@ -16,7 +16,7 @@ options=(!emptydirs)
 conflicts=($_target-gcc)
 source=("https://mirrors.kernel.org/gnu/gcc/gcc-$pkgver/gcc-$pkgver.tar.xz"
 	"libiberty-ignore-cflags.patch")
-sha256sums=('196c3c04ba2613f893283977e6011b2345d1cd1af9abeac58e916b1aab3e0080'
+sha256sums=('79a66834e96a6050d8fe78db2c3b32fb285b230b855d0a66288235bc04b327a0'
             '8b2aea00e98f7c311b1d0fb14e4b435a03c65fde32bc992c924edb6fa7b83c9c')
 _basedir=gcc-$pkgver
 
