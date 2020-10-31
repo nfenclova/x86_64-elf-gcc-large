@@ -1,0 +1,6 @@
+/ccache
+/log
+/pkg
+/src
+
+/gcc-*.tar.xz
